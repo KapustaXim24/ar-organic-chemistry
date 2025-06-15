@@ -1,0 +1,11 @@
+Model Information:
+* title:	Methane Molecule
+* source:	https://sketchfab.com/3d-models/methane-molecule-dfb1c75b9d3449c483bedc6d4721cecf
+* author:	S.Duce (https://sketchfab.com/sduce)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Methane Molecule" (https://sketchfab.com/3d-models/methane-molecule-dfb1c75b9d3449c483bedc6d4721cecf) by S.Duce (https://sketchfab.com/sduce) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
