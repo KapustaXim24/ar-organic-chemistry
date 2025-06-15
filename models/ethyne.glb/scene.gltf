@@ -1,0 +1,220 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 6780,
+      "max": [
+        1.1325139999389648,
+        0.39100000262260437,
+        0.6002349853515625
+      ],
+      "min": [
+        -1.1325139999389648,
+        -0.39100000262260437,
+        -0.6002349853515625
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 81360,
+      "componentType": 5126,
+      "count": 6780,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 39480,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 162720,
+      "componentType": 5126,
+      "count": 2712,
+      "max": [
+        1.9179999828338623,
+        0.2530999779701233,
+        0.2529999911785126
+      ],
+      "min": [
+        -1.9179999828338623,
+        -0.2530999779701233,
+        -0.2529999911785126
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 195264,
+      "componentType": 5126,
+      "count": 2712,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 157920,
+      "componentType": 5125,
+      "count": 15792,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "S.Duce (https://sketchfab.com/sduce)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/acetylene-ethyne-molecule-bcfde9fe28d244dbaf291501440aed6d",
+      "title": "Acetylene (ethyne) Molecule"
+    },
+    "generator": "Sketchfab-13.58.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 221088,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 227808,
+      "byteOffset": 221088,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 448896,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "k909090",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.566,
+          0.566,
+          0.566,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9106721441304432
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "kffffff",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9106721441304432
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.9999552965164185,
+        0.00931212306022644,
+        -0.001624493859708307,
+        0.0,
+        -9.898845746647567e-05,
+        -0.16152890026569344,
+        -0.9868679642677307,
+        0.0,
+        -0.00945223867893219,
+        0.9868240356445313,
+        -0.1615207642316816,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "Acetylene.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
