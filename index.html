@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AR Organic Chemistry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
+</head>
+<body style="margin: 0; overflow: hidden;">
+    <a-scene mindar-image="imageTargetSrc: ./targets.mind;" color-space="sRGB"
+             renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        
+        <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+        <!-- ====================================================================== -->
+        <!--           ВІДОБРАЖЕННЯ 3D-МОДЕЛЕЙ НА ВАШИХ 4 МАРКЕРАХ                -->
+        <!-- ====================================================================== -->
+
+        <!-- Маркер 1: Молекула Метану (перший маркер у списку компіляції) -->
+        <a-entity mindar-image-target="targetIndex: 0">
+            <a-gltf-model src="models/methane.glb" scale="0.1 0.1 0.1" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-gltf-model>
+        </a-entity>
+
+        <!-- Маркер 2: Молекула Етену (другий маркер у списку компіляції) -->
+        <a-entity mindar-image-target="targetIndex: 1">
+            <a-gltf-model src="models/ethene.glb" scale="0.1 0.1 0.1" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-gltf-model>
+        </a-entity>
+
+        <!-- Маркер 3: Молекула Етину (третій маркер у списку компіляції) -->
+        <a-entity mindar-image-target="targetIndex: 2">
+            <a-gltf-model src="models/ethyne.glb" scale="0.1 0.1 0.1" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-gltf-model>
+        </a-entity>
+
+        <!-- Маркер 4: Порівняння властивостей алкінів (четвертий маркер у списку компіляції) -->
+        <a-entity mindar-image-target="targetIndex: 3">
+            <a-gltf-model src="models/alkyne-properties.glb" scale="0.1 0.1 0.1" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000; easing: linear;"></a-gltf-model>
+        </a-entity>
+
+    </a-scene>
+</body>
+</html>
