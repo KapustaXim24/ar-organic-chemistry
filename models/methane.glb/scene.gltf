@@ -1,0 +1,220 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1572,
+      "max": [
+        0.5316002368927002,
+        0.437126100063324,
+        0.5316002368927002
+      ],
+      "min": [
+        -0.5316002368927002,
+        -0.437126100063324,
+        -0.5316002368927002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18864,
+      "componentType": 5126,
+      "count": 1572,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 20064,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 37728,
+      "componentType": 5126,
+      "count": 5424,
+      "max": [
+        1.1430000066757202,
+        0.8823000192642212,
+        1.1430000066757202
+      ],
+      "min": [
+        -1.1430000066757202,
+        -0.8823000192642212,
+        -1.1430000066757202
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 102816,
+      "componentType": 5126,
+      "count": 5424,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 80256,
+      "componentType": 5125,
+      "count": 31584,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "S.Duce (https://sketchfab.com/sduce)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/methane-molecule-dfb1c75b9d3449c483bedc6d4721cecf",
+      "title": "Methane Molecule"
+    },
+    "generator": "Sketchfab-13.56.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 206592,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 167904,
+      "byteOffset": 206592,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 374496,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "k909090",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.566,
+          0.566,
+          0.566,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9106721441304432
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "kffffff",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9106721441304432
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.541218638420105,
+        0.024337891489267162,
+        0.8405296206474304,
+        0.0,
+        0.698125958442688,
+        0.5441811680793763,
+        -0.4652816355228423,
+        0.0,
+        -0.4687243402004242,
+        0.8386146426200866,
+        0.27753007411956804,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "Methane.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
